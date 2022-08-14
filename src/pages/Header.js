@@ -9,7 +9,7 @@ function Header(){
                 <div className="location-wrapper">
                     <div className="location-icon-name">
                         <i className="fi fi-rr-marker absolute-center location-icon"></i>
-                        <div>Bangalore</div>
+                        <div className="location-search--text"><input type="text" placeholder="Bangalore Water Supply" /></div>
                         {/* <input placeholder="Bangalore" className="absolute-center " /> */}
                     </div>
                     <i className="fi fi-rr-caret-down abosulte-center"></i>
@@ -26,7 +26,7 @@ function Header(){
             <div className="profile-wrapper">
                 <img src="#" alt="profile" className="header-profile-image" />
                 <span className="header-username">Rahul</span>
-                <i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
+                    <i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
             </div>
         </div>
     </div>
